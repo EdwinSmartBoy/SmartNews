@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <!--主内容上部分-->
+    <com.example.edwin.smartnews.views.NoSlideViewPager
+        android:id="@+id/content_vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!--主内容下部分-->
+    <RadioGroup
+        android:id="@+id/content_rg"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@mipmap/bottom_tab_bg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/content_rb_home"
+            style="@style/content_rb_style"
+            android:checked="true"
+            android:drawableTop="@drawable/radio_button1_selector"
+            android:text="@string/content_fragment_home"/>
+
+        <RadioButton
+            android:id="@+id/content_rb_newsCenter"
+            style="@style/content_rb_style"
+            android:drawableTop="@drawable/radio_button2_selector"
+            android:text="@string/content_fragment_news_center"/>
+
+        <RadioButton
+            android:id="@+id/content_rb_smartService"
+            style="@style/content_rb_style"
+            android:drawableTop="@drawable/radio_button3_selector"
+            android:text="@string/content_fragment_smart_service"/>
+
+        <RadioButton
+            android:id="@+id/content_rb_gov"
+            style="@style/content_rb_style"
+            android:drawableTop="@drawable/radio_button4_selector"
+            android:text="@string/content_fragment_gov"/>
+
+        <RadioButton
+            android:id="@+id/content_rb_setting"
+            style="@style/content_rb_style"
+            android:drawableTop="@drawable/radio_button5_selector"
+            android:text="@string/content_fragment_setting"/>
+
+    </RadioGroup>
+
+</LinearLayout>

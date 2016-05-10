@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SmartNews</string>
+    <string name="guide_btn">完美体验</string>
+    <string name="content_fragment_home">首页</string>
+    <string name="content_fragment_news_center">新闻中心</string>
+    <string name="content_fragment_smart_service">智慧服务</string>
+    <string name="content_fragment_gov">政务</string>
+    <string name="content_fragment_setting">设置</string>
+</resources>
